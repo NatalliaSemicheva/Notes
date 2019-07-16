@@ -1,0 +1,10 @@
+inhibit_all_warnings!
+
+def helpers_pods
+    pod 'CocoaLumberjack'
+end
+
+target 'Notes' do
+    helpers_pods
+    
+end

@@ -1,0 +1,5 @@
+Добавила конфигурацию Test для тестирования проекта. Она используется в схеме Test. 
+
+Меняла параметры:
+1) Configuration Mode -> Whole Module
+2) Optimization Level -> Optimizations for Speed
