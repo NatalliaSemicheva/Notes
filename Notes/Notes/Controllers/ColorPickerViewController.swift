@@ -74,7 +74,7 @@ class ColorPickerViewController: UIViewController {
     
     @IBAction func actionAddColor(_ sender: Any) {
         delegate?.chooseColor(selectedColor)
-        dismiss(animated: true, completion: nil)
+        navigationController?.popViewController(animated: true)
     }
     
     private func updateColor() {

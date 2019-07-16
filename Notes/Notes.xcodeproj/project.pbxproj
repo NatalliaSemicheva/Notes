@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		4CACE6C79F5913786C6173B7 /* libPods-Notes.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50CFDB3E059CF66DF50E054C /* libPods-Notes.a */; };
+		C409150122DDE8A700144EAB /* NoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C409150022DDE8A700144EAB /* NoteCell.swift */; };
+		C409150322DDE8C200144EAB /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C409150222DDE8C200144EAB /* NotesViewController.swift */; };
+		C409150522DE055B00144EAB /* GalleryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C409150422DE055B00144EAB /* GalleryDetailViewController.swift */; };
+		C409150722DE06F300144EAB /* GalleryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C409150622DE06F300144EAB /* GalleryCell.swift */; };
+		C409150B22DE07ED00144EAB /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C409150A22DE07ED00144EAB /* GalleryViewController.swift */; };
 		C4152BAA22D8901F0040506B /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4152BA922D8901F0040506B /* UIImage.swift */; };
 		C4152BAC22D8929E0040506B /* ColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4152BAB22D8929E0040506B /* ColorPickerViewController.swift */; };
 		C4152BAE22D8A1AF0040506B /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4152BAD22D8A1AE0040506B /* UIColor.swift */; };
 		C4F1BC2022D8D3830074F851 /* RainbowGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F1BC1F22D8D3830074F851 /* RainbowGradientView.swift */; };
 		FE0E3CCB22C67505007A883C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0E3CCA22C67505007A883C /* AppDelegate.swift */; };
-		FE0E3CCD22C67505007A883C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0E3CCC22C67505007A883C /* ViewController.swift */; };
+		FE0E3CCD22C67505007A883C /* NoteDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0E3CCC22C67505007A883C /* NoteDetailViewController.swift */; };
 		FE0E3CD022C67505007A883C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE0E3CCE22C67505007A883C /* Main.storyboard */; };
 		FE0E3CD222C67507007A883C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE0E3CD122C67507007A883C /* Assets.xcassets */; };
 		FE0E3CD522C67507007A883C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE0E3CD322C67507007A883C /* LaunchScreen.storyboard */; };
@@ -42,6 +47,11 @@
 		0DF980BB55EAD1A31D23AAB9 /* Pods-Notes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notes.release.xcconfig"; path = "Target Support Files/Pods-Notes/Pods-Notes.release.xcconfig"; sourceTree = "<group>"; };
 		50CFDB3E059CF66DF50E054C /* libPods-Notes.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Notes.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84170490B5B86700A5179067 /* Pods-Notes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notes.debug.xcconfig"; path = "Target Support Files/Pods-Notes/Pods-Notes.debug.xcconfig"; sourceTree = "<group>"; };
+		C409150022DDE8A700144EAB /* NoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCell.swift; sourceTree = "<group>"; };
+		C409150222DDE8C200144EAB /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		C409150422DE055B00144EAB /* GalleryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryDetailViewController.swift; sourceTree = "<group>"; };
+		C409150622DE06F300144EAB /* GalleryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCell.swift; sourceTree = "<group>"; };
+		C409150A22DE07ED00144EAB /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
 		C4152BA922D8901F0040506B /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
 		C4152BAB22D8929E0040506B /* ColorPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerViewController.swift; sourceTree = "<group>"; };
 		C4152BAD22D8A1AE0040506B /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
@@ -49,7 +59,7 @@
 		D4287DE685FF8BA2865C25EC /* Pods-Notes.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notes.test.xcconfig"; path = "Target Support Files/Pods-Notes/Pods-Notes.test.xcconfig"; sourceTree = "<group>"; };
 		FE0E3CC722C67505007A883C /* Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE0E3CCA22C67505007A883C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FE0E3CCC22C67505007A883C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FE0E3CCC22C67505007A883C /* NoteDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailViewController.swift; sourceTree = "<group>"; };
 		FE0E3CCF22C67505007A883C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FE0E3CD122C67507007A883C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE0E3CD422C67507007A883C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -93,6 +103,28 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		C40914FE22DDE84100144EAB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FE0E3CCC22C67505007A883C /* NoteDetailViewController.swift */,
+				C4152BAB22D8929E0040506B /* ColorPickerViewController.swift */,
+				C409150222DDE8C200144EAB /* NotesViewController.swift */,
+				C409150422DE055B00144EAB /* GalleryDetailViewController.swift */,
+				C409150A22DE07ED00144EAB /* GalleryViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C40914FF22DDE87F00144EAB /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FE73641F22D64FBB00495256 /* ColorCell.swift */,
+				C409150022DDE8A700144EAB /* NoteCell.swift */,
+				C409150622DE06F300144EAB /* GalleryCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		CDFD528AA8085E3E6A842D6E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -124,13 +156,12 @@
 		FE0E3CC922C67505007A883C /* Notes */ = {
 			isa = PBXGroup;
 			children = (
+				FE0E3CCE22C67505007A883C /* Main.storyboard */,
+				C40914FF22DDE87F00144EAB /* Cells */,
+				C40914FE22DDE84100144EAB /* Controllers */,
 				FE73642322D6512500495256 /* Helpers */,
 				FE1EF4FC22C795B800617A62 /* Model */,
 				FE0E3CCA22C67505007A883C /* AppDelegate.swift */,
-				FE73641F22D64FBB00495256 /* ColorCell.swift */,
-				FE0E3CCC22C67505007A883C /* ViewController.swift */,
-				C4152BAB22D8929E0040506B /* ColorPickerViewController.swift */,
-				FE0E3CCE22C67505007A883C /* Main.storyboard */,
 				FE0E3CD122C67507007A883C /* Assets.xcassets */,
 				FE0E3CD322C67507007A883C /* LaunchScreen.storyboard */,
 				FE0E3CD622C67507007A883C /* Info.plist */,
@@ -314,11 +345,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE0E3CE122C69027007A883C /* FileNotebook.swift in Sources */,
+				C409150522DE055B00144EAB /* GalleryDetailViewController.swift in Sources */,
 				C4152BAA22D8901F0040506B /* UIImage.swift in Sources */,
 				C4152BAC22D8929E0040506B /* ColorPickerViewController.swift in Sources */,
-				FE0E3CCD22C67505007A883C /* ViewController.swift in Sources */,
+				C409150122DDE8A700144EAB /* NoteCell.swift in Sources */,
+				C409150B22DE07ED00144EAB /* GalleryViewController.swift in Sources */,
+				FE0E3CCD22C67505007A883C /* NoteDetailViewController.swift in Sources */,
+				C409150722DE06F300144EAB /* GalleryCell.swift in Sources */,
 				FE0E3CDF22C6752D007A883C /* NoteExtension.swift in Sources */,
 				FE73642222D6512000495256 /* UIView.swift in Sources */,
+				C409150322DDE8C200144EAB /* NotesViewController.swift in Sources */,
 				FE0E3CCB22C67505007A883C /* AppDelegate.swift in Sources */,
 				C4F1BC2022D8D3830074F851 /* RainbowGradientView.swift in Sources */,
 				FE0E3CDE22C6752D007A883C /* Note.swift in Sources */,
